@@ -37,11 +37,11 @@ git checkout -b
 
 e.g. git checkout -b <branch-name>
 
-### step 4 Lets make some contributions
+### step 5 Lets make some contributions
 
 Make changes to files on your local machine work on the issue you're assigned. 
 
-### step 5 Add Changes and Commit Changes
+### step 6 Add Changes and Commit Changes
 
 Now we have to add changes that we made to the branch so for that we will run following command
 
@@ -51,7 +51,7 @@ Now we have to commit changes, commit message should always be clear, to commit 
 
 git commit -m "resolved the <issue>"
 
-### step 6 Push changes to GitHub
+### step 7 Push changes to GitHub
 
 Now we have to push the changes that we made to remote repository on specified branch to do so use command below
 
@@ -59,7 +59,7 @@ git push origin <branch name>
 
 name of branch is same as you created in step 3
 
-### step 7 Submit your changes for review
+### step 8 Submit your changes for review
 
 Once you have pushed your code to GitHub, now it's time to create pull request, you will go to the repository click on compare and pull request and submit the pull request.
 
