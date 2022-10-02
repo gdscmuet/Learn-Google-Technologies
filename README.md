@@ -33,9 +33,7 @@ On your local machine go the project folder that you cloned and use following gi
 
 create a new branch using below command
 
-git checkout -b
-
-e.g. git checkout -b <branch-name>
+> git checkout -b <branch-name>
 
 ### step 5: Lets make some contributions
 
@@ -45,17 +43,17 @@ Make changes to files on your local machine work on the issue you're assigned.
 
 Now we have to add changes that we made to the branch so for that we will run following command
 
-git add .
+> git add .
 
 Now we have to commit changes, commit message should always be clear, to commit use command below
 
-git commit -m "resolved the <issue>"
+> git commit -m "resolved the <issue>"
 
 ### step 7: Push changes to GitHub
 
 Now we have to push the changes that we made to remote repository on specified branch to do so use command below
 
-git push origin <branch name>
+> git push origin <branch name>
 
 name of branch is same as you created in step 3
 
