@@ -1,3 +1,6 @@
+<img src="src/HACKTOBERFEST22.png" alt="Hacktober Fest Cover Image" align=center>
+
+
 <h1>NOTE</h1>
 
 - You must maintain proper structure of the repo, Flutter concepts must fall into "Flutter" folder and so on.
