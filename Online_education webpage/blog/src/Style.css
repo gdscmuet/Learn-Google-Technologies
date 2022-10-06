@@ -1,0 +1,40 @@
+
+
+.App{
+                    margin-top: 5rem;
+                    margin-left: 35%;
+                    background: rgb(138, 138, 212);
+                    width: 25rem;
+                    height: 30rem;
+                    box-shadow: 0 10px 10px rgba(0,0,0,0.6);
+                    border-radius: 8px;
+
+}
+h2{
+                    display: inline-block;
+                    color: #feffff;
+                    margin-top: 10px;
+}
+
+form{
+                    margin: 4rem 60px;
+
+}
+
+form input,form select{
+                    width: 250px;
+                    height: 35px;
+                    border-radius: 10px;
+                    outline: none;
+                    border: none;
+}
+
+.Show{
+                    margin-top: -5rem;                    
+                    margin-left: 35%;
+                    background: rgb(138, 138, 212);
+                    width: 25rem;
+                    height: 30rem;
+                    box-shadow: 0 10px 10px rgba(0,0,0,0.6);
+                    border-radius: 8px;
+}

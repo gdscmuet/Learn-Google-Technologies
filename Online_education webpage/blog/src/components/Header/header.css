@@ -1,0 +1,103 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+}
+
+
+.header{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    width: 100%;
+                    /* height: 100px; */
+                    padding: 20px 20px;
+}
+
+.header .logo{
+          margin:auto 0;
+           color: white;
+           text-transform: uppercase;
+           margin-left: 0rem;
+}
+
+.header .logo h1{
+                    font-size: 55px;
+                    font-size: 500;
+}
+
+.header .logo h2{
+                    font-size: 20px;
+                    margin: -15px -4px;
+}
+
+
+.header .social{
+                    display: flex;
+                    flex-direction: row;
+                    gap: 2rem;
+                    margin-left: 20rem;
+                    margin-top: 20px;
+                    align-items: center;      
+                    color: #00bdd2;     
+                    font-size: 1.5rem;
+}
+
+.header .social a{ 
+
+                    background: rgba(255, 255, 255, 0.836);
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    transition: all 0.4s ease-in-out;
+
+}
+.header .social a:hover{
+                    color: white;
+                    background: #00bdd2;
+                    
+}
+
+.icon i{
+                     margin-left: 8px; 
+                     
+}
+
+.icon i .icons{
+            margin-top: 8px;         
+}
+
+
+@media screen and (max-width:956px){
+                    .header .logo h1{
+                                        font-size: 50px;
+                    }
+                    .header .logo h2{
+                                        font-size:16px ;
+                    }                   
+}
+@media screen and (max-width:896px){
+                 .header .logo{
+                    margin-left: 0rem;
+                 }
+                 .header .social{
+                    margin-left: 0;
+                 }
+}
+
+@media screen and (max-width:600px){
+                    .header{
+                    justify-content: start;
+                    }
+           .header .social{
+                    display: none;
+           }
+}
+
+@media screen and (max-width:300px){
+                    .header .logo h1{
+                                        font-size:45px ;
+                    }
+}
