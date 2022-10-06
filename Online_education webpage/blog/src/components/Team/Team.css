@@ -1,0 +1,78 @@
+#team{
+                    background:#ebf4f5;
+                    margin:-33px 0;
+                    height: 34rem;
+}
+
+#team  h2.online_heading{
+                    margin-left: 30rem;
+}
+.team-container{
+                    width: 40%;
+                    padding-bottom: 4rem;
+                    margin-top: 5rem;
+}
+
+.std_avatar{
+                    width: 6rem;
+                    aspect-ratio: 1/1;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    margin: 0 auto 1rem;
+                    
+                    border: 0.4rem solid var(--color-primary);
+}
+.std_avatar img{
+                    width: 100%;
+                    height: 100%;
+}
+.team{
+                    background: #fff;
+                    /* background:var(--bg-varient); */
+                    text-align: center;
+                    padding: 2rem;
+                    border-radius: 2rem;
+                    user-select: none;                      
+                    transition: all 0.3s ease-in-out;
+}
+
+.team:hover{
+                    background:  #1eb2ab;
+}
+
+.std_review{
+                    color:var(--color-light);
+                    font-size: 18px;
+                    font-weight: 600;
+                    display: block;
+                    width: 80%;
+                    margin: 0.8rem auto 0;
+                    transition: all 0.3s ease-in-out;
+}
+.std_name{
+                    font-size: 20px;
+                    font-weight: 800;
+                    transition: all 0.3s ease-in-out;
+}
+.team:hover .std_review,.team:hover .std_name{
+                    color: #fff;
+}
+
+
+@media screen and (max-width:1024px){
+                    .team-container{
+                                        width: 60%;
+                    }
+
+}
+
+@media screen and (max-width:600px){
+                    .team-container{
+                        width: var(--container-width-ms);                   
+                    }
+                    .std_review{
+                                        width: var(--container-width-ms);
+                    }
+
+}
+

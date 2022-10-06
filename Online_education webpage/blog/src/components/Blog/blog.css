@@ -1,0 +1,36 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+}
+
+.blog{
+                    width:100%;
+                    height: 35rem;
+                    margin-top: 1rem;
+                    background: #ebf4f5;
+}
+
+.blog_course{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 1000px;
+                    margin: 3rem 10rem;
+                    /* justify-content: space-evenly; */
+}
+
+.blog_course .blog_article
+{
+                    display: flex;
+                    flex-direction: column;
+                    width: 300px;
+                    background-color: #fff;
+                    height: 350px;
+                    box-shadow: 10px 10px 10px rgba(0, 0,0, 0.6);
+                    transition: all 0.2s ease-in-out;
+}
+.blog_course .blog_article:hover
+{
+                box-shadow: none;
+}
+

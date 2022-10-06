@@ -1,0 +1,80 @@
+*{
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+}
+.client{
+                    text-align: center;
+                  }
+                  .client h1{
+                       font-style: 45px;
+                  }
+                  .client p{
+                    font-style: 18px;
+                    font-weight: 400;
+                    margin-top: 10px;
+                  }
+                  .container_user{
+                    width: 100%;
+                    background: url("./../Images/user.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                    /* background-attachment: fixed; */
+                   
+                    margin: 0 auto;
+                    color: black;
+                  }
+                  .row{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                  }
+                  .col-3{
+                    width: 100%;
+                     padding: 50px 0;
+                                     
+                      display: flex;
+                      justify-content: center;
+                    width: 25%;
+                  }
+                  .col-4{
+                    width: 33.3333%;
+                  }
+                  .prices{
+                    width: 100%;
+                    padding: 80px 0;
+                  }
+                  .price{
+                    padding: 20px;
+                    text-align: center;
+                  
+                  }
+                  .prices .row{
+                    width: 100%;
+                    display: flex;
+                    flex-wrap: wrap;
+                  }
+                  .price_img{
+                    width: 100%;
+                    
+                  }
+                  .price_img img{
+                    width: 250px;
+                  }
+                  .price_heading,.price_rs{
+                    color: black;
+                    margin-top: 20px;
+                    font-size: 30px;
+                  }
+                  
+                  .price_text{
+                    margin-top: 15px;
+                    color: #888888;
+                    font-size: 18px;
+                  }
+                  
+                  .icon_user{
+                    font-size: 40px;
+                    margin: 15px
+                  }  
