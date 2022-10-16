@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:state_management_provider/provider/user_data.dart';
@@ -17,6 +18,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => UserData(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         initialRoute: '/',
         routes: {
           '/': (context) => HomeScreen(),

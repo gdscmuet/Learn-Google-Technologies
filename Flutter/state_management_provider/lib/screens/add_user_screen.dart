@@ -11,10 +11,12 @@ class AddUserScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-          mainAxisAlignment: MainAxisAlignment.start,
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
+              alignment: Alignment.center,
+              height: 60,
               width: 0.7 * MediaQuery.of(context).size.width,
               child: TextField(
                 controller: nameController,
@@ -22,11 +24,17 @@ class AddUserScreen extends StatelessWidget {
               ),
             ),
             Container(
+              alignment: Alignment.center,
+              height: 60,
               width: 0.7 * MediaQuery.of(context).size.width,
               child: TextField(
                 controller: ageController,
                 decoration: const InputDecoration(label: Text('Age')),
               ),
+            ),
+            const SizedBox(
+              height: 30,
+              width: double.infinity,
             ),
             TextButton(
                 onPressed: () {
