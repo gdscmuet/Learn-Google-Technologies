@@ -7,28 +7,28 @@
 - You can also add any issue and we will assign it to you as per your request!
 
 # Learn-Google-Developers
-A repo dedicated to the learning of Google Developer Technologies including Flutter, Tenserflow, Angular, Firebase and many others.
+A repo dedicated to the learning of Google Developer Technologies including Flutter, Tensorflow, Angular, Firebase and many others.
 
 # How to contribute
 
-1. You can contribute in terms of Code
-2. You can contribute in terms of improving Documentation
+1. You can contribute in terms of Code.
+2. You can contribute in terms of improving Documentation.
 
 ## Following the procedure you can make your contribution with ease.
 
 ### Step 1:
 
-Look in the issues if the change you are doing is available and issues section is it assigned to someone or not if you can't find any issue open one. Anyone from our team will assign you the issue then you can start contributing
+Look in the issues, if the change you are doing is available and if the issue is assigned to someone or not if you can't find any issue then you can open one. Anyone from our team will assign you the issue then you can start contributing.
 
 ### step 2: Fork this repository
 
-You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account
+You can fork this repository by clicking on fork button on top right corner. Once you fork this will create a copy of repo on your account.
 
 ### step 3: Clone the repository 
 
-To clone the repository go to your account open this repo and either click on clone button or run the command below to get this repository on your local machine
+To clone the repository go to your account open this repo and either click on clone button or run the command below to get this repository on your local machine:
 
-> git clone "URL you just copied"
+> git clone "https://github.com/{USERNAME}/Learn-Google-Technologies.git"
 
 ### step 4: Create a branch
 
@@ -40,7 +40,7 @@ create a new branch using below command
 
 ### step 5: Lets make some contributions
 
-Make changes to files on your local machine work on the issue you're assigned. 
+Make changes to files on your local machine and work on the issues you're assigned. 
 
 ### step 6: Add Changes and Commit Changes
 
@@ -64,4 +64,4 @@ name of branch is same as you created in step 3
 
 Once you have pushed your code to GitHub, now it's time to create pull request, you will go to the repository click on compare and pull request and submit the pull request.
 
-Soon, we will be merging all your pull requests to the main branch of project and you will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below
+Soon, we will be merging all your pull requests to the main branch of project and you will also get notification once your pull request is merged with existing code base. After that you will be able to see your details in contributor section on the page below.
